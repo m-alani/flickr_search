@@ -1,6 +1,6 @@
 # Flickr Search  
 
-A sample iPad app created to experiment with iOS internet access (to Flickr's APIs) & Grid Views.  
+A sample iPad app created to experiment with iOS internet connectivity APIs (to Flickr's APIs) & Grid Views.  
 
 -----  
 
