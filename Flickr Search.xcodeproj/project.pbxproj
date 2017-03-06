@@ -12,6 +12,7 @@
 		E0DB4C781E6DF41900AF3205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DB4C761E6DF41900AF3205 /* Main.storyboard */; };
 		E0DB4C7A1E6DF41900AF3205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0DB4C791E6DF41900AF3205 /* Assets.xcassets */; };
 		E0DB4C7D1E6DF41900AF3205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DB4C7B1E6DF41900AF3205 /* LaunchScreen.storyboard */; };
+		E0DB4C851E6DF47E00AF3205 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E0DB4C841E6DF47E00AF3205 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E0DB4C791E6DF41900AF3205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0DB4C7C1E6DF41900AF3205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0DB4C7E1E6DF41900AF3205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0DB4C841E6DF47E00AF3205 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		E0DB4C661E6DF41800AF3205 = {
 			isa = PBXGroup;
 			children = (
+				E0DB4C841E6DF47E00AF3205 /* README.md */,
 				E0DB4C711E6DF41900AF3205 /* Flickr Search */,
 				E0DB4C701E6DF41900AF3205 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0DB4C851E6DF47E00AF3205 /* README.md in Sources */,
 				E0DB4C751E6DF41900AF3205 /* ViewController.swift in Sources */,
 				E0DB4C731E6DF41900AF3205 /* AppDelegate.swift in Sources */,
 			);
@@ -267,6 +271,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.alani.Flickr-Search";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -280,6 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.alani.Flickr-Search";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
