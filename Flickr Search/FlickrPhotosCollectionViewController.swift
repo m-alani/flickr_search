@@ -15,6 +15,7 @@ class FlickrPhotosViewController: UICollectionViewController {
     fileprivate var searches = [FlickrSearchResults]()
     fileprivate let flickr = Flickr()
     fileprivate let itemsPerRow: CGFloat = 3
+
 }
 
 // MARK: - UICollectionViewDelegateFlowLayout Methods
@@ -87,9 +88,9 @@ extension FlickrPhotosViewController {
     }
     
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        var header: UICollectionReusableView = FlickrReusableSectionHeader()
+        let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "sectionHeader", for: indexPath) as! FlickrReusableSectionHeader
         if kind == UICollectionElementKindSectionHeader {
-            
+            header.sectionHeader.text = searches[indexPath.section].searchTerm
         }
         return header
     }
@@ -97,6 +98,7 @@ extension FlickrPhotosViewController {
 
 // MARK: - Private
 private extension FlickrPhotosViewController {
+    
     func photoForIndexPath(indexPath: IndexPath) -> FlickrPhoto {
         return searches[(indexPath as NSIndexPath).section].searchResults[(indexPath as IndexPath).row]
     }
