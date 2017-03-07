@@ -1,9 +1,31 @@
-# Flickr Search  
+# Flickr Search 
+## A sample iOS app  
 
-A sample iPad app created to experiment with iOS internet connectivity APIs (to Flickr's APIs) & Grid Views.  
-  
-Note that the app is using Flickr's public API key (which is changed daily). If you would like to run it, you will need to replace the API key in "Config.swift" with your own key.  
+#### Search for photos on Flickr!  
+
+iOS 10 - XCode 8 - Swift 3  
+
+-----  
+
+#### The App is created to demonstarate basic knowledge of:
+- XCode StoryBoards & Auto Layout
+- Collection Views
+- The Delegate Pattern
+- Flickr API
+- URL Sessions
+- JSON Serialization
+- Separation of interest
+
+-----  
+
+This is a very simple iPad app I made to experiment with CollectionViews and asynchronous network access using URLSessions.   
   
 -----  
 
-Marwan Alani - 2017  
+#### Screenshots  
+
+![Screenshots](https://raw.githubusercontent.com/m-alani/flickr_search/master/screenshot.jpg "Screenshots")  
+
+-----  
+
+Marwan Alani - 2017 

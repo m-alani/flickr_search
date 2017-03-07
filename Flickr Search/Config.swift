@@ -6,4 +6,4 @@
 //  Copyright © 2017 Marwan Alani. All rights reserved.
 //
 
-let FLICKR_API_KEY = "abf53b7689c97eb14f4f0e35c32cbb27"
+let FLICKR_API_KEY = "" // Add you Flickr API Key here
